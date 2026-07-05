@@ -16,6 +16,20 @@ A browser-based drum pad that plays sound when you click the buttons or press th
 6. Press `Play` to hear the recorded sequence.
 7. Press `Clear` to erase the current recording.
 
+## Run locally
+- Option 1: Open `index.html` directly in your browser.
+- Option 2: Run a simple local server for best audio and file-loading behavior.
+
+### Using Python
+- Python 3: `python3 -m http.server 8000`
+- Then open `http://localhost:8000` in your browser.
+
+### Using Node.js
+- If you have Node installed: `npx http-server .`
+- Then open the printed local URL in your browser.
+
+> Note: A local server is recommended if the browser blocks sound or asset loading from local files.
+
 ## Files
 - `index.html` — page structure and controls
 - `styles.css` — visual styling and layout
